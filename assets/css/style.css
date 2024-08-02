@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerPrincipal {
+  display: flex;
+}
+
+.sectionContactos {
+  display: flex;
+  width: 25vw;
+  min-width: 150px;
+  height: 100vh;
+
+}
+/* seccion principal */
+.sectionPrincipal {
+  background-color: #E8EBE4;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sectionPrincipal img {
+  width: 20%;
+}
+
+.alineacionTexto {
+  text-align: center;
+}
+
+
+/* seccion contactos */
+
+.sectionContactos {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff
+}
+
+
+.avatarContacto {
+  display: flex;
+  border: 1px solid #BEC1BB;
+  gap: 15px;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+
+.avatar img {
+border-radius: 50%;
+width: 35px;
+height: 35px;
+
+}
+
+
+.textoAvatar {
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+
+.vinetas {
+  display: flex;
+  font-size: 20px;
+  width: 5rem;
+  justify-content: space-evenly;
+
+}
+
+.containerButton {
+  padding: 35px 0px;
+  border: 1px solid #BEC1BB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ 
+/* botón */
+
+.button {
+  padding: 10px 35px;
+  background-color: #A491D2;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+background-color: #CDC3E6;
+}
+ 
+.button:focus {
+  background-color: #BEC1BB;
+}
+
+
+
+/* sección de contactos */
+
+.listaContactos {
+display: flex;
+flex-direction: column;
+}
+
+
+.datosContacto {
+  display: flex;
+  border: 1px solid #BEC1BB; 
+  gap: 20px;
+  padding: 10px 30px;
+ 
+}
+
+.fotoContacto img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.infoContacto {
+}
+
+/* estilos de letra */
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* tamaño letra */
+
+.fontSize45 {
+  font-size: 45px;
+}
+
+.fontSize16 {
+  font-size: 16px;
+}
+
+.fontSize14 {
+  font-size: 14px;
+}
+
+.fontSize10 {
+  font-size: 10px;
+}
+
+/* color de letra */
+
+.negrita {
+ color:#1B1F21 ;
+}
+
+.grisMedio {
+color: #444749;
+}
+
+.grisClaro {
+  color: #828485;
+}
+
+.blanca {
+  color: #fff;
+}
